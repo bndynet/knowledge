@@ -1,0 +1,40 @@
+# Bendy's Wiki
+
+[Language]()
+
+  * # OOP
+  * [Java](content/java.md)
+  * [CSharp](content/csharp.md)
+  * [TypeScript](content/typescript.md)
+  - - - -
+  * # Script
+  * [JavaScript](content/javascript.md)
+  * [CoffeeScript](content/coffeescript.md)
+  * [Python](content/python.md)
+  - - - -
+  * # Functional
+  * [FSharp](content/fsharp.md)
+
+[Database]()
+
+  * [MySQL](content/mysql.md)
+  * [SQL Server](content/sqlserver.md)
+  * [Oracle](content/oracle.md)
+  * [MongoDB](content/mongodb.md)
+
+[VCS]()
+
+  * [Git](content/git.md)
+
+[gimmick:ThemeChooser](Change theme)
+
+[gimmick:theme (inverse: false)](cosmo)
+[gimmick:forkmeongithub(color: 'red', position: 'right')](http://www.github.com/bndynet/)
+
+<script type="text/javascript">
+	setTimeout(function() {
+		//remove divider and Powered by...
+		$('.navbar-nav:first .dropdown:last').remove();
+		$('.navbar-nav:first .dropdown:last').remove();
+	}, 1000);
+</script>
