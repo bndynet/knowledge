@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run gist && \\cp -R ./content/* ./_wiki/content/ 2>/dev/null || :",
+    "win-build": "npm run gist && xcopy .\\content\\* .\\_wiki\\content\\ /YS",
     "gist": "node ./app/gist-sync.js"
   },
   "repository": {
