@@ -1,0 +1,7 @@
+node_modules/
+
+_wiki/content/
+_posts/
+
+
+*.swp

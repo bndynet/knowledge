@@ -1,0 +1,25 @@
+{
+  "name": "knowledge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run gist && \\cp -R ./content/* ./_wiki/content/ 2>/dev/null || :",
+    "gist": "node ./app/gist-sync.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bndynet/knowledge.git"
+  },
+  "author": "Bendy Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bndynet/knowledge/issues"
+  },
+  "homepage": "https://github.com/bndynet/knowledge#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.6.0",
+    "fs-extra": "^6.0.1",
+    "requirejs": "^2.3.5"
+  }
+}

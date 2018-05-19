@@ -15,6 +15,7 @@
   * # Functional
   * [FSharp](content/fsharp.md)
 
+
 [Database]()
 
   * [MySQL](content/mysql.md)
@@ -22,9 +23,17 @@
   * [Oracle](content/oracle.md)
   * [MongoDB](content/mongodb.md)
 
-[VCS]()
+[Collaboration]()
 
   * [Git](content/git.md)
+
+[OS]()
+
+  * [CentOS](content/centos.md)
+
+[Links]()
+
+  * [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 [gimmick:ThemeChooser](Change theme)
 
