@@ -11,17 +11,12 @@
   * [JavaScript](content/javascript.md)
   * [CoffeeScript](content/coffeescript.md)
   * [Python](content/python.md)
-  - - - -
-  * # Functional
-  * [FSharp](content/fsharp.md)
 
 
 [Database]()
 
   * [MySQL](content/mysql.md)
-  * [SQL Server](content/sqlserver.md)
   * [Oracle](content/oracle.md)
-  * [MongoDB](content/mongodb.md)
 
 [Collaboration]()
 
