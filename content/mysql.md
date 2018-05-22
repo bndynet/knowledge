@@ -1,8 +1,5 @@
-Records complex knowledge about MySQL
+# MySQL
 
-# [MySQL](https://gist.github.com/bndynet/5ea2a03f45ec368aa0415698ff95a2bc)
-
----
 ## Installation
 
 ### Using the MySQL Yum Repository
