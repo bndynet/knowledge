@@ -1,4 +1,4 @@
-# [CentOS](https://gist.github.com/bndynet/e2c99b11b9e4d62d9a7bc4384709fd91)
+# CentOS
 
 ## FirewallD
 
