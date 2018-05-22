@@ -1,6 +1,4 @@
-Records complex knowledge about Java programming language.
-
-# [Java](https://gist.github.com/bndynet/6970816d5e533537c0a969ad8993fcf1)
+# Java
 
 -------------------------------
 ## Spring Boot Starter Project
