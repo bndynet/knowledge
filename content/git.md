@@ -1,5 +1,3 @@
-Here to list some useful Git commands and use cases.
-
 # Git
   
 ## Commit with empty message
