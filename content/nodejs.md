@@ -1,4 +1,4 @@
-# Install
+# Node.js
 
 ## Install Node.js
 
