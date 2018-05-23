@@ -1,5 +1,3 @@
-[Install Node.js](#install-nodejs), [Install NVM](#install-nvm)
-
 # Install
 
 ## Install Node.js
@@ -15,6 +13,7 @@ On RHEL, CentOS or Fedora:
 
 `curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -`
 
+---
 ## Install NVM
 
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash`
@@ -34,3 +33,16 @@ export NVM_DIR="$HOME/.nvm"
 - nvm use [version]
 - nvm alias default [version]         // Set default node version on a shell
 - nvm ls, nvm ls-remote
+
+---
+## Publish & Update a Package
+
+`npm adduser`  if you don't have one
+
+`npm login`    enter your name and password
+
+`npm publish`  publish public package
+
+`npm version [patch|minor|major]`   update version
+
+`npm publish`   publish to npm
