@@ -45,4 +45,4 @@ export NVM_DIR="$HOME/.nvm"
 
 `npm version [patch|minor|major]`   update version
 
-`npm publish`   publish to npm
+`npm publish --access=public`   publish to npm, for old version without `--access=public`
