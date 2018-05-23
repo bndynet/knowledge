@@ -41,7 +41,7 @@ export NVM_DIR="$HOME/.nvm"
 
 `npm login`    enter your name and password
 
-`npm publish`  publish public package
+`npm publish --access=public`   publish to npm, for old version without `--access=public`
 
 `npm version [patch|minor|major]`   update version
 
