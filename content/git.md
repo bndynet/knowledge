@@ -191,6 +191,12 @@ with Git: Fork, Branching, Commits, and Pull Request
   git submodule update --init --recursive
   git rm submodule-name
   git rm submodule-name --cached
+  // update submodule to master
+  cd submodule_folder
+  git checkout master
+  cd ../
+  git add .
+  git commit -m ''
   ```
 
 ---
