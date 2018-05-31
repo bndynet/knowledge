@@ -90,6 +90,23 @@ git stash list // show all stashes
 git stash apply <id>  // apply <id> stash
 ```
 
+## Tags
+
+```bash
+# create tag
+git tag -a <tagname> -m '<tagcomment>'  
+# show tags
+git tag
+# show specified tag
+git show <tagname>
+# push to remote
+git push origin <tagname>
+# push all tags to remote
+git push origin --tags
+# checkout tag
+git checkout <tagname>
+```
+
 ## Common Alias
 
 ```
