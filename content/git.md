@@ -105,6 +105,10 @@ git push origin <tagname>
 git push origin --tags
 # checkout tag
 git checkout <tagname>
+# delete tag
+git tag -d <tagname>
+# delete remote tag
+git push origin :<tagname>
 ```
 
 ## Common Alias
