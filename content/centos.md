@@ -7,16 +7,19 @@ sudo yum install firewalld
 sudo systemctl enable firewalld
 sudo reboot
 sudo firewall-cmd --state           //-> running
-firewall-cmd --get-default-zone     //-> public
+sudo firewall-cmd --get-default-zone     //-> public
 sudo firewall-cmd --zone=public --add-port=5000/tcp
 sudo firewall-cmd --zone=public --list-ports
 sudo firewall-cmd --zone=public --permanent --add-port=5000/tcp
 sudo firewall-cmd --zone=public --permanent --add-port=4990-4999/udp
 sudo firewall-cmd --zone=public --permanent --list-ports
-sudo firewall-cmd --reload
-firewall-cmd --get-services
 
-firewall-cmd --permanent --add-forward-port=port=80:proto=tcp:toport=8080  // forward 80 to 8080      
+sudo firewall-cmd --get-services
+
+sudo firewall-cmd --permanent --add-forward-port=port=80:proto=tcp:toport=8080  // forward 80 to 8080    
+sudo firewall-cmd --permanent --remove-forward-port=port=80:proto=tcp:toport=8080   // remove forwarding
+
+sudo firewall-cmd --reload
 ```
 
 ---
