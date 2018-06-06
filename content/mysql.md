@@ -4,13 +4,13 @@
 
 1. `wget` rpm from http://dev.mysql.com/downloads/repo/yum/.  
 1. Install release package (Example):
-    ```
+    ```bash
     sudo rpm -Uvh mysql80-community-release-el6-n.noarch.rpm
     ```
     
 1. Select Version  
   
-    ```
+    ```bash
     yum repolist all | grep mysql  
     sudo yum-config-manager --disable mysql80-community  
     sudo yum-config-manager --enable mysql57-community  
@@ -18,7 +18,7 @@
     ```
     
 1. Install & Config MySQL
-    ```shell  
+    ```bash
     sudo yum install mysql-community-server  
     sudo systemctl start mysqld.service  
     sudo systemctl enable mysqld.service   // as service at start  
@@ -30,7 +30,7 @@
 ## Remote Access
 
 **SQL**
-```
+```bash
 UPDATE user SET Host='%' WHERE User='root';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
@@ -38,14 +38,14 @@ FLUSH PRIVILEGES;
 
 **Firewall**
 
-```shell
+```bash
 firewall-cmd --add-port=3306/tcp
 firewall-cmd --permanent --add-port=3306/tcp
 ```
 
 ## Securing the MySQL Installation
 
-```
+```bash
 shell> mysql_secure_installation
 ```
 
