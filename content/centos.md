@@ -1,5 +1,16 @@
 # CentOS
 
+## User and Permission
+
+```bash
+groups      // show current groups
+groupadd <group>    // add group
+groupdel <group>    // delete group
+groups <username>   // show user groups
+usermod -aG <group> <username>    // append user to group
+usermod -G <group> <username>       // add user to group  
+```
+
 ## FirewallD
 
 ```bash
