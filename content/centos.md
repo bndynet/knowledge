@@ -11,6 +11,13 @@ usermod -aG <group> <username>    // append user to group
 usermod -G <group> <username>       // add user to group  
 ```
 
+## File Operations
+
+```
+chown --reference=otherfile thisfile        // copy owners of otherfile to thisfile
+chmod --reference=otherfile thisfile        // copy attributes of otherfile to thisfile
+```
+
 ## FirewallD
 
 ```bash
