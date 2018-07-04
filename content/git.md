@@ -5,6 +5,12 @@
 1. `git config --global alias.nccommit "commit -a --allow-empty-message -m ''"`
 1. `git nccommit`  
 
+## Merge
+
+- `git merge master` 
+- `git merge master --squash`   // merge master branch to current branch and keep changes without commits
+- `git rebase master`
+
 ## Undoing Things
 
 - Overwrite commit
