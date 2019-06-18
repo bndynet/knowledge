@@ -3,7 +3,11 @@
 ## Commit with empty message
 
 1. `git config --global alias.nccommit "commit -a --allow-empty-message -m ''"`
-1. `git nccommit`  
+1. `git nccommit`
+
+## Bind local branch with remote branch
+
+`git branch --set-upstream-to=origin/remote_branch  your_branch`
 
 ## Merge
 
